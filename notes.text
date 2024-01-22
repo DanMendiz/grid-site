@@ -1,0 +1,35 @@
+Web Dev Checklist:
+
+• Validate HTML / CSS / Code --
+	
+Use an online code validator to validate your code
+
+• Layout  --- Mobile first --
+
+	
+use @media to create breakpoints for larger screen sizes – move from portrait to landscape
+
+• Helpful Stylsheets --
+	
+Use CDN & James’  generic style-sheets above your main style-sheets 
+
+• Check Accesibilty -- 	
+
+Use lighthouse to check accessibility 
+
+
+• Use a favicon
+
+• Keep Dev Tools open
+	
+Remember to refer to dev tools all the time
+
+
+
+	
+
+
+
+	
+
+
