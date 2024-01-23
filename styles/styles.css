@@ -32,3 +32,49 @@ html {
 } */
 /* ----------- End of Reset and Common Styles ----------- */
 
+.container {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  /* position: relative; */
+  /* margin: auto; */
+  grid-template-areas:
+    'header header'
+    'nav nav'
+    'info services'
+    'footer footer';
+  grid-template-rows: 1fr 1fr 3fr 1fr;
+  grid-template-columns: 1fr 3fr;
+  border: 1px red solid;
+  gap: 1rem;
+}
+
+header {
+  grid-area: header;
+  border: 1px blue solid;
+  background-color: blue;
+}
+
+nav {
+  grid-area: nav;
+  border: 1px green solid;
+  background-color: green;
+}
+
+.info {
+  grid-area: info;
+  border: 1px orange solid;
+  background-color: orange;
+}
+
+.services {
+  grid-area: services;
+  border: 1px red solid;
+  background-color: red;
+}
+
+footer {
+  grid-area: footer;
+  border: 1px black solid;
+  background-color: blueviolet;
+}
