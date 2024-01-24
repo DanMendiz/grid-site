@@ -40,11 +40,11 @@ html {
   /* margin: auto; */
   grid-template-areas:
     'header header'
-    'nav nav'
-    'info services'
+    /* 'nav nav' */
+    'info info'
     'footer footer';
-  grid-template-rows: 1fr 1fr 3fr 1fr;
-  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 3fr 1fr;
+  grid-template-columns: 1fr 1fr;
   border: 1px red solid;
   gap: 1rem;
 }
@@ -52,29 +52,45 @@ html {
 header {
   grid-area: header;
   border: 1px blue solid;
-  background-color: blue;
+  /* background-color: blue; */
 }
 
-nav {
+/* nav {
   grid-area: nav;
   border: 1px green solid;
   background-color: green;
-}
+} */
 
 .info {
   grid-area: info;
   border: 1px orange solid;
-  background-color: orange;
+  /* background-color: orange; */
+  /* background-image: url('https://static.wixstatic.com/media/897a84_39b274b90fea4aba9bdbe28a0d5974f2~mv2.jpg/v1/fill/w_980,h_574,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/897a84_39b274b90fea4aba9bdbe28a0d5974f2~mv2.jpg');
+  background-repeat: no-repeat;
+  background-size: 90%; */
+  align-content: center;
+}
+
+.main-el-pasaje {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border-radius: 10%; */
+}
+
+.ben-pic {
+  border-radius: 10%;
 }
 
 .services {
   grid-area: services;
   border: 1px red solid;
-  background-color: red;
+  /* background-color: red; */
 }
 
 footer {
   grid-area: footer;
   border: 1px black solid;
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
 }
